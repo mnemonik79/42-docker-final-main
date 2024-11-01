@@ -1,4 +1,4 @@
-name: golang-pipeline
+name: golang
 on: push
 jobs:
   test:
