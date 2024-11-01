@@ -36,7 +36,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: truehuzker/final_workflow
+          images: mnemonik79/42-docker-final-main
 
       - name: Build and push Docker Image
         uses: docker/build-push-action@v5
